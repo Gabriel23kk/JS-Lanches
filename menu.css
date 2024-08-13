@@ -1,0 +1,32 @@
+.menu{
+    background: url(https://i.pinimg.com/564x/c1/f0/d2/c1f0d2afce64466aa73089972edae2f8.jpg);
+    background-size: 100vw 100vh;
+    height: 70vh;
+}
+.x-salada img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.title-menu h4{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    
+}
+.title-menu h4 span{
+    margin-left: 5px;
+    color: rgb(243, 103, 37);
+}
+.price{
+    display: flex;
+    gap: 10px;
+}
+
+.x-salada button{
+    width: 90px;
+}
+.x-burguer img{
+    width: 150px;
+    height: 150px;
+}
