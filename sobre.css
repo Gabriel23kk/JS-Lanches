@@ -8,7 +8,7 @@
 .container-image{
     animation: upper 5s ease-in-out;
     animation-timeline: scroll();
-    animation-range: cover 0 cover 80%;
+    animation-range: cover 0 cover 30%;
 }
 .row{
     display: flex;
@@ -24,7 +24,7 @@
     padding: 15px;
     animation: apper 5s ease-in-out;
     animation-timeline: scroll();
-    animation-range: cover 0 cover 80%;
+    animation-range: cover 0 cover 30%;
 }
 .conteudo p{
     font-size: 1.4rem;
