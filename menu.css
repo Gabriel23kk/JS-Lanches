@@ -1,8 +1,9 @@
 .menu{
     background: url(https://i.pinimg.com/564x/c1/f0/d2/c1f0d2afce64466aa73089972edae2f8.jpg);
     background-size: 100vw 100vh;
-    height: 100vh;
+    height: 180vh;
     width: 100vw;
+    
 }
 
 .title-menu h4{
@@ -32,15 +33,26 @@
     padding: 25px;
     border-radius: 15px;
 }
+.lanche:hover{
+    border: 1px solid  rgb(250, 98, 28);
+    background: url(https://i.pinimg.com/564x/18/12/b4/1812b429cadcc6d4bb4695810ee2c593.jpg);
+    transition: 2s ease-in-out;
+}
+
 .comp-lanche{
     width: 8rem;
     height: 5rem;
     position: relative;
-    top: 0.5em;
+    top: 0.2em;
     background-color: rgb(247, 86, 11);
     border: none;
     border-radius: 10px;
     font-size: 18px;
+}
+.comp-lanche:hover{
+    font-size: 22px;
+    background-color: rgb(255, 106, 36);
+    transition: 1s;
 }
 .itens{
     display: grid;
@@ -48,7 +60,107 @@
     gap: 2rem;
     position: relative;
     left: 12em;
+    
+}
+.itens p{
+    font-size: 22px;
+}
+.itens s{
+    
+    font-size: 18px;
 }
 .menu img {
     border-radius: 100px;
+}
+#X-Salada{
+    animation: crescer 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 44%;
+    transition: 2s;
+}
+#X-Burger{
+    animation: crescer 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 44%;
+    transition: 2s;
+}
+#X-Tudo{
+    animation: crescer 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 44%;
+    transition: 2s;
+}
+#duplo-X-tudo{
+    animation: crescer 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 45%;
+    transition: 2s;
+}
+#Chease-Burguer{
+    animation: crescer 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 45%;
+    transition: 2s;
+}
+#X-Frango{
+    animation: crescer 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 45%;
+    transition: 2s;
+}
+/*  animation: crescer 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 50%;*/
+@keyframes crescer {
+    0%{
+        opacity: 0;
+        transform: scale(0.0);
+    }
+    60%{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.Localização p {
+    position: relative;
+    top: 100px;
+    color: #ffffff;
+    font-size: 2.3em;
+    text-align: center;
+}
+.Localização p span{
+    color:  rgb(247, 86, 11);
+}
+iframe{
+    position: relative;
+    top: 100px;
+    left: 28%;
+    border-radius: 30px;
+}
+footer{
+    position: relative;
+    top: 10%;
+    backdrop-filter: blur(10px);
+    height: 8.7%;
+    border-top: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding-top: 10px;
+}
+footer p{
+    color: #ffffff;
+    font-size: 22px;
+}
+footer p span{
+    color: rgb(247, 86, 11);
+}
+footer .links{
+    display: flex;
+    gap: 50px;
 }
