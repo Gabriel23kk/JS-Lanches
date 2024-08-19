@@ -1,4 +1,4 @@
-@media screen and (max-width: 1277px) and (max-height: 605px) {
+@media screen and (min-width: 420px) and (max-width: 1277px) {
     .row{
         position: relative;
         bottom: 40px;
@@ -18,8 +18,8 @@
         height: 40vh;
     }
     .lanche img{
-        width: 7vw;
-        height: 16vh;
+        width: 90px;
+        height: 90px;
     }
     .Localização{
         height: 56vh;
@@ -45,6 +45,87 @@
     footer{
         height: 21.8vh;
         top: 97px;
+    }
+    
+}
+@media screen and (max-width: 415px){
+    
+    .button-logo{
+        display: none;
+    }
+    .button-logo img{
+        display: none;
+    }
+    
+    .back-text{
+        width: 70vw;
+    }
+    .content p{
+        width: 60vw;
+    }
+    .btn{
+        display: flex;
+        width: 40vw;
+        font-size: 18px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-image img{
+        height: 190px;
+        width: 250px;
+    }
+    .conteudo{
+        width: 80vw;
+        height: 30vh;
+    }
+    .conteudo h3{
+        font-size: 24px;
+    }
+    .conteudo .segundo-p{
+        display: none;
+    }
+    .segundo-btn{
+        display: none;
+    }
+    .menu{
+        height: 186vh;
+    }
+    .itens{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 0.4fr));
+        position: relative;
+        left: 2em;
+        top: 1em;
+    }
+    .burguer{
+        display: flex;
+        height: 135px;
+    }
+    .lanche-title{
+        font-size: 16px;
+        width: 40vw;
+        text-align: center;
+    }
+    .Localização p{
+        position: relative;
+        top: 0.9em;
+    }
+    .Localização iframe{
+        position: relative;
+        top: 2em;
+        left: 4em;
+        height: 70vw;
+        width: 70vw;
+    }
+    .Localização footer{
+        position: relative;
+        top: 2em;
+    }
+    .Localização footer p{
+        position: relative;
+        top: 0.2em;
     }
     
 }

@@ -14,7 +14,7 @@
     display: flex;
 }
 .conteudo{
-    max-width: 40vw;
+    width: 40vw;
     height: 45vh;
     border-radius: 15px;
     position: relative;
