@@ -1,0 +1,50 @@
+@media screen and (max-width: 1277px) and (max-height: 605px) {
+    .row{
+        position: relative;
+        bottom: 40px;
+    }
+    .conteudo{
+        height: 56vh;
+    }
+    .button-logo{
+        height: 11vh;
+        top: 2px;
+    }
+    .itens{
+        position: relative;
+        left: 12%;
+    }
+    .lanche{
+        height: 40vh;
+    }
+    .lanche img{
+        width: 7vw;
+        height: 16vh;
+    }
+    .Localização{
+        height: 56vh;
+    }
+    .Localização p{
+        position: relative;
+        top: 40px;
+    }
+    .Localização iframe{
+        position: relative;
+        top: 60px;
+        left: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        width: 40vw;
+    }
+    .Localização footer p{
+        position: relative;
+        top: 10px;
+    }
+    footer{
+        height: 21.8vh;
+        top: 97px;
+    }
+    
+}
